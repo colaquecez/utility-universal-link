@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/.well-known/apple-app-site-association",
-        headers: [{ key: "content-type", value: "application/json" }],
+        headers: [{ key: "Content-Type", value: "application/json" }],
       },
     ];
   },
