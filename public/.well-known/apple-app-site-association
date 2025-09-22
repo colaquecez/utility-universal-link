@@ -5,9 +5,11 @@
         "appIDs": [
           "A9MF56EMP8.qa.goodneigbhor.com"
         ],
-        "paths": [
-          "*",
-          "/"
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any path"
+          }
         ]
       }
     ]
