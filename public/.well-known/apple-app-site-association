@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "A9MF56EMP8.qa.goodneigbhor.com"
+        ],
+        "paths": [
+          "*",
+          "/"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "A9MF56EMP8.qa.goodneigbhor.com"
+    ]
+  }
+}
