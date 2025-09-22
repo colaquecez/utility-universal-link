@@ -1,15 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async rewrites() {
+  /* config options here */
+  async headers() {
     return [
       {
         source: "/.well-known/apple-app-site-association",
-        destination: "/api/apple-app-site-association",
+        headers: [{ key: "content-type", value: "application/json" }],
       },
     ];
   },
-  /* config options here */
 };
 
 export default nextConfig;
