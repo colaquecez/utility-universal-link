@@ -3,13 +3,26 @@
     "details": [
       {
         "appIDs": [
-          "A9MF56EMP8.qa.goodneigbhor.com"
+          "A9MF56EMP8.qa.goodneigbhor.com",
+          "FAKETEAMID.qa.goodneigbhor.com"
         ],
         "components": [
           {
             "/": "/*",
             "comment": "Matches any path"
           }
+        ]
+      },
+      {
+        "appID": "A9MF56EMP8.qa.goodneigbhor.com",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "FAKETEAMID.qa.goodneigbhor.com",
+        "paths": [
+          "*"
         ]
       }
     ]
